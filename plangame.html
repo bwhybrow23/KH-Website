@@ -1,0 +1,1151 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>KewlHost - Minecraft</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport' />
+    <!--     Fonts and icons     -->
+  
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" />
+    <link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet">
+    
+    <!-- CSS Files -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="assets/css/now-ui-kit.css?v=1.1.0" rel="stylesheet" />
+    <link href="assets/css/styles.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+
+    <script src="https://kit.fontawesome.com/5d95a9d6b1.js"></script>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicons/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicons/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicons/favicon-16x16.png">
+	<link rel="manifest" href="assets/img/favicons/site.webmanifest">
+	<link rel="mask-icon" href="assets/img/favicons/safari-pinned-tab.svg" color="#5bbad5">
+	<link rel="shortcut icon" href="assets/img/favicons/favicon.ico">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="msapplication-TileImage" content="assets/img/favicons/mstile-144x144.png">
+	<meta name="msapplication-config" content="assets/img/favicons/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    
+</head>
+<body>
+<nav class="navbar navbar-expand-lg  navbar-absolute navbar-transparent">
+    <div class="container">
+        <div class="navbar-translate">
+            <a class="navbar-brand" href="index.html">
+                <img src="assets/img/logokh.png" alt="Logo" class="navbar-logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-bar bar1"></span>
+                <span class="navbar-toggler-bar bar2"></span>
+                <span class="navbar-toggler-bar bar3"></span>
+            </button>
+        </div>
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav ml-auto">
+                <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle nav-item nav-link" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Plans</button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="plangame.html">Minecraft</a>
+                        <a class="dropdown-item" href="planvps.html">VPS Hosting</a>
+                        <a class="dropdown-item" href="planapp.html">App Hosting</a>
+                    </div>
+                </div>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html"> 
+                        <p> About</p>
+                        <i class="fas fa-question header-icon"></i>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="jobs.html">
+                        <p> Jobs</p>
+                        <i class="fas fa-user header-icon"></i>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="privacy.html">
+                        <p> Privacy</p>
+                        <i class="fas fa-lock header-icon"></i>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="tos.html">
+                        <p> ToS</p>
+                        <i class="fas fa-copy header-icon"></i>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://billing.kewlhost.co.uk/ ">
+                        <p> Client Area</p>
+                        <i class="fas fa-clipboard header-icon"></i>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://panel.kewlhost.co.uk/">
+                        <p> Panel</p>
+                        <i class="fas fa-laptop-code header-icon"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+<div class="jumbotron vps-jumbo">
+	<div class="container">
+		<div>
+	  		<h1 class="jumbotron-title">Minecraft Hosting</h1>
+	  		<div class="vps-jumbo-info">
+		  		<p class="lead">We have high quality Minecraft plans available, all boasting the same great performance.</p>
+	  		</div>
+  		</div>
+  	</div>
+</div>
+
+
+
+<div class="container">
+    <div class="game-select">
+        <label>Selected Platform:</label>
+        <select class="form-control" id="game-select">
+            <option>Choose:</option>
+            <option>Java-Premium</option>
+            <option>Bedrock-Premium</option>
+            <!-- <option>FiveM</option>
+            <option>Ark-Survival-Evovled</option>
+            <option>CSGO</option> 
+            <option>GMOD</option> 
+            <option>TeamFortress-2</option>
+            <option>Insurgency</option>
+            <option>Rust</option> 
+            <option>Arma3</option> 
+            <option>Conan-Exiles</option>
+            <option>Dont-Starve</option>
+            <option>Factorio</option> -->
+        </select>
+    </div>
+
+        <div class="row" id="Java-Premium">
+            <div class="col-md-4 col-sm-12 col-xs-12">
+                <div class="plan shadow rounded">
+                    <h1 class="plan-title">Premium 512MB</h1>
+                    <p class="plan-price">£1.00/Month</p>
+                    <i class="fas fa-gamepad plan-icon text-blue"></i>
+                    <ul class="plan-features">
+                        <li class="plan-feature">Bungeecord Optimised</li>
+                        <li class="plan-feature">512MB DDR4 RAM</li>
+                        <li class="plan-feature">i7-6700k @ 3.4-4.2Ghz</li>
+                        <li class="plan-feature">10 GB Raid-1 NVMe SSD</li>
+                    </ul>
+                    <a href="https://billing.kewlhost.co.uk/cart.php?a=add&pid=2" class="plan-buy btn btn-info">Purchase Now</a>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-12 col-xs-12">
+                <div class="plan plan-featured pulse">
+                  <h1 class="plan-title">Premium 1024MB</h1>
+                  <p class="plan-price">£1.50/Month</p>
+                  <i class="fas fa-gamepad plan-icon text-blue"></i>
+                  <ul class="plan-features">
+                    <li class="plan-feature">1024MB DDR4 RAM</li>
+                    <li class="plan-feature">i7-6700k @ 3.4-4.2Ghz</li>
+                    <li class="plan-feature">10 GB Raid-1 NVMe SSD</li>
+                    <li class="plan-feature">DDoS Protection</li>
+                  </ul>
+                  <a href="https://billing.kewlhost.co.uk/cart.php?a=add&pid=3" class="plan-buy btn btn-info">Purchase Now</a>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-12 col-xs-12">
+                <div class="plan shadow rounded">
+                    <h1 class="plan-title">Premium 2048MB</h1>
+                    <p class="plan-price">£3.00/Month</p>
+                    <i class="fas fa-gamepad plan-icon text-blue"></i>
+                    <ul class="plan-features">
+                      <li class="plan-feature">2048MB DDR4 RAM</li>
+                      <li class="plan-feature">i7-6700k @ 3.4-4.2Ghz</li>
+                      <li class="plan-feature">10 GB Raid-1 NVMe SSD</li>
+                        <li class="plan-feature">DDoS Protection</li>
+                    </ul>
+                    <a href="https://billing.kewlhost.co.uk/cart.php?a=add&pid=4" class="plan-buy btn btn-info">Purchase Now</a>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-12 col-xs-12">
+                <div class="plan shadow rounded">
+                    <h1 class="plan-title">Premium 3072MB</h1>
+                    <p class="plan-price">£4.50/Month</p>
+                    <i class="fas fa-gamepad plan-icon text-blue"></i>
+                    <ul class="plan-features">
+                      <li class="plan-feature">3072MB DDR4 RAM</li>
+                      <li class="plan-feature">i7-6700k @ 3.4-4.2Ghz</li>
+                      <li class="plan-feature">10 GB Raid-1 NVMe SSD</li>
+                        <li class="plan-feature">DDoS Protection</li>
+                    </ul>
+                    <a href="https://billing.kewlhost.co.uk/cart.php?a=add&pid=5" class="plan-buy btn btn-info">Purchase Now</a>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-12 col-xs-12">
+                <div class="plan shadow rounded">
+                    <h1 class="plan-title">Premium 4096MB</h1>
+                    <p class="plan-price">£6.00/Month</p>
+                    <i class="fas fa-gamepad plan-icon text-blue"></i>
+                    <ul class="plan-features">
+                      <li class="plan-feature">4096MB DDR4 RAM</li>
+                      <li class="plan-feature">i7-6700k @ 3.4-4.2Ghz</li>
+                      <li class="plan-feature">10 GB Raid-1 NVMe SSD</li>
+                        <li class="plan-feature">DDoS Protection</li>
+                    </ul>
+                    <a href="https://billing.kewlhost.co.uk/cart.php?a=add&pid=6" class="plan-buy btn btn-info">Purchase Now</a>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-12 col-xs-12">
+                <div class="plan shadow rounded">
+                    <h1 class="plan-title">Premium 5120MB</h1>
+                    <p class="plan-price">£7.50/Month</p>
+                    <i class="fas fa-gamepad plan-icon text-blue"></i>
+                    <ul class="plan-features">
+                      <li class="plan-feature">5120MB DDR4 RAM</li>
+                      <li class="plan-feature">i7-6700k @ 3.4-4.2Ghz</li>
+                      <li class="plan-feature">10 GB Raid-1 NVMe SSD</li>
+                        <li class="plan-feature">DDoS Protection</li>
+                    </ul>
+                    <a href="https://billing.kewlhost.co.uk/cart.php?a=add&pid=7" class="plan-buy btn btn-info">Purchase Now</a>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-12 col-xs-12">
+                <div class="plan shadow rounded">
+                    <h1 class="plan-title">Premium 6144MB</h1>
+                    <p class="plan-price">£9.00/Month</p>
+                    <i class="fas fa-gamepad plan-icon text-blue"></i>
+                    <ul class="plan-features">
+                      <li class="plan-feature">6144MB DDR4 RAM</li>
+                      <li class="plan-feature">i7-6700k @ 3.4-4.2Ghz</li>
+                      <li class="plan-feature">10 GB Raid-1 NVMe SSD</li>
+                        <li class="plan-feature">DDoS Protection</li>
+                    </ul>
+                    <a href="https://billing.kewlhost.co.uk/cart.php?a=add&pid=8" class="plan-buy btn btn-info">Purchase Now</a>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-12 col-xs-12">
+                <div class="plan shadow rounded">
+                    <h1 class="plan-title">Premium 7168MB</h1>
+                    <p class="plan-price">£10.50/Month</p>
+                    <i class="fas fa-gamepad plan-icon text-blue"></i>
+                    <ul class="plan-features">
+                      <li class="plan-feature">7168MB DDR4 RAM</li>
+                      <li class="plan-feature">i7-6700k @ 3.4-4.2Ghz</li>
+                      <li class="plan-feature">10 GB Raid-1 NVMe SSD</li>
+                        <li class="plan-feature">DDoS Protection</li>
+                    </ul>
+                    <a href="https://billing.kewlhost.co.uk/cart.php?a=add&pid=9" class="plan-buy btn btn-info">Purchase Now</a>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-12 col-xs-12">
+                <div class="plan shadow rounded">
+                    <h1 class="plan-title">Premium 8192MB</h1>
+                    <p class="plan-price">£12.00/Month</p>
+                    <i class="fas fa-gamepad plan-icon text-blue"></i>
+                    <ul class="plan-features">
+                      <li class="plan-feature">8192MB DDR4 RAM</li>
+                      <li class="plan-feature">i7-6700k @ 3.4-4.2Ghz</li>
+                      <li class="plan-feature">10 GB Raid-1 NVMe SSD</li>
+                        <li class="plan-feature">DDoS Protection</li>
+                    </ul>
+                    <a href="https://billing.kewlhost.co.uk/cart.php?a=add&pid=10" class="plan-buy btn btn-info">Purchase Now</a>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-12 col-xs-12">
+                <div class="plan shadow rounded">
+                    <h1 class="plan-title">Premium 9216MB</h1>
+                    <p class="plan-price">£13.50/Month</p>
+                    <i class="fas fa-gamepad plan-icon text-blue"></i>
+                    <ul class="plan-features">
+                        <li class="plan-feature">9216MB DDR4 RAM</li>
+                        <li class="plan-feature">i7-6700k @ 3.4-4.2Ghz</li>
+                        <li class="plan-feature">10 GB Raid-1 NVMe SSD</li>
+                        <li class="plan-feature">DDoS Protection</li>
+                    </ul>
+                    <a href="https://billing.kewlhost.co.uk/cart.php?a=add&pid=11" class="plan-buy btn btn-info">Purchase Now</a>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-12 col-xs-12">
+                <div class="plan shadow rounded">
+                    <h1 class="plan-title">Premium 10240MB</h1>
+                    <p class="plan-price">£15.00/Month</p>
+                    <i class="fas fa-gamepad plan-icon text-blue"></i>
+                    <ul class="plan-features">
+                      <li class="plan-feature">10240MB DDR4 RAM</li>
+                      <li class="plan-feature">i7-6700k @ 3.4-4.2Ghz</li>
+                      <li class="plan-feature">10 GB Raid-1 NVMe SSD</li>
+                        <li class="plan-feature">DDoS Protection</li>
+                    </ul>
+                    <a href="https://billing.kewlhost.co.uk/cart.php?a=add&pid=12" class="plan-buy btn btn-info">Purchase Now</a>
+                </div>
+            </div>   
+        </div>
+
+        <div class="row" id="Bedrock-Premium">
+            <div class="col-md-4 col-sm-12 col-xs-12">
+                <div class="plan shadow rounded">
+                    <h1 class="plan-title">Bedrock 1024MB</h1>
+                    <p class="plan-price">£1.50/Month</p>
+                    <i class="fas fa-gamepad plan-icon text-blue"></i>
+                    <ul class="plan-features">
+                        <li class="plan-feature">1024MB DDR4 RAM</li>
+                        <li class="plan-feature">i7-6700k @ 3.4-4.2Ghz</li>
+                        <li class="plan-feature">10 GB Raid-1 NVMe SSD</li>
+                        <li class="plan-feature">5 MySQL Databases</li>
+                    </ul>
+                    <a href="https://billing.kewlhost.co.uk/cart.php?a=add&pid=13" class="plan-buy btn btn-info">Purchase Now</a>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-12 col-xs-12">
+                <div class="plan plan-featured pulse">
+                  <h1 class="plan-title">Bedrock 2048MB</h1>
+                  <p class="plan-price">£3.00/Month</p>
+                  <i class="fas fa-gamepad plan-icon text-blue"></i>
+                  <ul class="plan-features">
+                    <li class="plan-feature">2048MB DDR4 RAM</li>
+                    <li class="plan-feature">i7-6700k @ 3.4-4.2Ghz</li>
+                    <li class="plan-feature">10 GB Raid-1 NVMe SSD</li>
+                    <li class="plan-feature">5 MySQL Databases</li>
+                  </ul>
+                  <a href="https://billing.kewlhost.co.uk/cart.php?a=add&pid=14" class="plan-buy btn btn-info">Purchase Now</a>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-12 col-xs-12">
+                <div class="plan shadow rounded">
+                    <h1 class="plan-title">Bedrock 3072MB</h1>
+                    <p class="plan-price">£4.50/Month</p>
+                    <i class="fas fa-gamepad plan-icon text-blue"></i>
+                    <ul class="plan-features">
+                      <li class="plan-feature">3072MB DDR4 RAM</li>
+                      <li class="plan-feature">i7-6700k @ 3.4-4.2Ghz</li>
+                      <li class="plan-feature">10 GB Raid-1 NVMe SSD</li>
+                      <li class="plan-feature">5 MySQL Databases</li>
+                    </ul>
+                    <a href="https://billing.kewlhost.co.uk/cart.php?a=add&pid=15" class="plan-buy btn btn-info">Purchase Now</a>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-12 col-xs-12">
+                <div class="plan shadow rounded">
+                    <h1 class="plan-title">Bedrock 4096MB</h1>
+                    <p class="plan-price">£6.00/Month</p>
+                    <i class="fas fa-gamepad plan-icon text-blue"></i>
+                    <ul class="plan-features">
+                        <li class="plan-feature">4096MB DDR4 RAM</li>
+                        <li class="plan-feature">i7-6700k @ 3.4-4.2Ghz</li>
+                        <li class="plan-feature">10 GB Raid-1 NVMe SSD</li>
+                        <li class="plan-feature">5 MySQL Databases</li>
+                    </ul>
+                    <a href="https://billing.kewlhost.co.uk/cart.php?a=add&pid=16" class="plan-buy btn btn-info">Purchase Now</a>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-12 col-xs-12">
+                <div class="plan shadow rounded">
+                    <h1 class="plan-title">Bedrock 5120MB</h1>
+                    <p class="plan-price">£7.50/Month</p>
+                    <i class="fas fa-gamepad plan-icon text-blue"></i>
+                    <ul class="plan-features">
+                        <li class="plan-feature">5120MB DDR4 RAM</li>
+                        <li class="plan-feature">i7-6700k @ 3.4-4.2Ghz</li>
+                        <li class="plan-feature">10 GB Raid-1 NVMe SSD</li>
+                        <li class="plan-feature">5 MySQL Databases</li>
+                    </ul>
+                    <a href="https://billing.kewlhost.co.uk/cart.php?a=add&pid=17" class="plan-buy btn btn-info">Purchase Now</a>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-12 col-xs-12">
+                <div class="plan shadow rounded">
+                    <h1 class="plan-title">Bedrock 6144MB</h1>
+                    <p class="plan-price">£9.00/Month</p>
+                    <i class="fas fa-gamepad plan-icon text-blue"></i>
+                    <ul class="plan-features">
+                        <li class="plan-feature">6144MB DDR4 RAM</li>
+                        <li class="plan-feature">i7-6700k @ 3.4-4.2Ghz</li>
+                        <li class="plan-feature">10 GB Raid-1 NVMe SSD</li>
+                        <li class="plan-feature">5 MySQL Databases</li>
+                    </ul>
+                    <a href="https://billing.kewlhost.co.uk/cart.php?a=add&pid=18" class="plan-buy btn btn-info">Purchase Now</a>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-12 col-xs-12">
+                <div class="plan shadow rounded">
+                    <h1 class="plan-title">Bedrock 7168MB</h1>
+                    <p class="plan-price">£10.50/Month</p>
+                    <i class="fas fa-gamepad plan-icon text-blue"></i>
+                    <ul class="plan-features">
+                        <li class="plan-feature">7168MB DDR4 RAM</li>
+                        <li class="plan-feature">i7-6700k @ 3.4-4.2Ghz</li>
+                        <li class="plan-feature">10 GB Raid-1 NVMe SSD</li>
+                        <li class="plan-feature">5 MySQL Databases</li>
+                    </ul>
+                    <a href="https://billing.kewlhost.co.uk/cart.php?a=add&pid=19" class="plan-buy btn btn-info">Purchase Now</a>
+                 </div>
+            </div>
+            <div class="col-md-4 col-sm-12 col-xs-12">
+                <div class="plan shadow rounded">
+                    <h1 class="plan-title">Bedrock 8192MB</h1>
+                    <p class="plan-price">£12.00/Month</p>
+                    <i class="fas fa-gamepad plan-icon text-blue"></i>
+                    <ul class="plan-features">
+                        <li class="plan-feature">8192MB DDR4 RAM</li>
+                        <li class="plan-feature">i7-6700k @ 3.4-4.2Ghz</li>
+                        <li class="plan-feature">10 GB Raid-1 NVMe SSD</li>
+                         <li class="plan-feature">5 MySQL Databases</li>
+                    </ul>
+                    <a href="https://billing.kewlhost.co.uk/cart.php?a=add&pid=20" class="plan-buy btn btn-info">Purchase Now</a>
+                 </div>
+            </div>
+            <div class="col-md-4 col-sm-12 col-xs-12">
+                <div class="plan shadow rounded">
+                    <h1 class="plan-title">Bedrock 9216MB</h1>
+                    <p class="plan-price">£13.50/Month</p>
+                    <i class="fas fa-gamepad plan-icon text-blue"></i>
+                    <ul class="plan-features">
+                        <li class="plan-feature">9216MB DDR4 RAM</li>
+                        <li class="plan-feature">i7-6700k @ 3.4-4.2Ghz</li>
+                        <li class="plan-feature">10 GB Raid-1 NVMe SSD</li>
+                        <li class="plan-feature">5 MySQL Databases</li>
+                    </ul>
+                    <a href="https://billing.kewlhost.co.uk/cart.php?a=add&pid=21" class="plan-buy btn btn-info">Purchase Now</a>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-12 col-xs-12">
+                <div class="plan shadow rounded">
+                    <h1 class="plan-title">Bedrock 10240MB</h1>
+                    <p class="plan-price">£15.00/Month</p>
+                    <i class="fas fa-gamepad plan-icon text-blue"></i>
+                    <ul class="plan-features">
+                        <li class="plan-feature">10240MB DDR4 RAM</li>
+                        <li class="plan-feature">i7-6700k @ 3.4-4.2Ghz</li>
+                        <li class="plan-feature">10 GB Raid-1 NVMe SSD</li>
+                        <li class="plan-feature">5 MySQL Databases</li>
+                    </ul>
+                    <a href="https://billing.kewlhost.co.uk/cart.php?a=add&pid=22" class="plan-buy btn btn-info">Purchase Now</a>
+                </div>
+            </div>
+        </div>
+
+        <!--- <div class="row" id="FiveM">
+            <div class="col-md-4 col-sm-12 col-xs-12">
+                <div class="plan shadow rounded">
+                    <h1 class="plan-title">FiveM - Starter</h1>
+                    <p class="plan-price">£3.00/Month</p>
+                    <i class="fas fa-paper-plane plan-icon text-blue"></i>
+                    <ul class="plan-features">
+                        <li class="plan-feature">2048MB RAM</li>
+                        <li class="plan-feature">i7-6700k 3.6Ghz-4.2Ghz OR i9-9900k</li>
+                        <li class="plan-feature">10GB Raid-1 NVMe SSD</li>
+                        <li class="plan-feature">DDoS Protection</li>
+                    </ul>
+                    <a href="https://billing.kewlhost.co.uk/cart.php?a=add&pid=33" class="plan-buy btn btn-info">Purchase Now</a>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-12 col-xs-12">
+                <div class="plan plan-featured pulse">
+                  <h1 class="plan-title">FiveM - Apprentice</h1>
+                  <p class="plan-price">£6.00/Month</p>
+                  <i class="fas fa-plane plan-icon text-blue"></i>
+                  <ul class="plan-features">
+                    <li class="plan-feature">4096MB RAM</li>
+                    <li class="plan-feature">i7-6700k 3.6Ghz-4.2Ghz OR i9-9900k</li>
+                    <li class="plan-feature">10GB Raid-1 NVMe SSD</li>
+                    <li class="plan-feature">DDoS Protection</li>
+                  </ul>
+                  <a href="https://billing.kewlhost.co.uk/cart.php?a=add&pid=34" class="plan-buy btn btn-info">Purchase Now</a>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-12 col-xs-12">
+                <div class="plan shadow rounded">
+                    <h1 class="plan-title">FiveM - King</h1>
+                    <p class="plan-price">£9.00/Month</p>
+                    <i class="fas fa-paper-plane plan-icon text-blue"></i>
+                    <ul class="plan-features">
+                      <li class="plan-feature">6144MB RAM</li>
+                      <li class="plan-feature">i7-6700k 3.6Ghz-4.2Ghz OR i9-9900k</li>
+                      <li class="plan-feature">10GB Raid-1 NVMe SSD</li>
+                        <li class="plan-feature">DDoS Protection</li>
+                    </ul>
+                    <a href="https://billing.kewlhost.co.uk/cart.php?a=add&pid=35" class="plan-buy btn btn-info">Purchase Now</a>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-12 col-xs-12">
+                <div class="plan shadow rounded">
+                    <h1 class="plan-title">FiveM - Master</h1>
+                    <p class="plan-price">£12.00/Month</p>
+                    <i class="fas fa-paper-plane plan-icon text-blue"></i>
+                    <ul class="plan-features">
+                      <li class="plan-feature">8192MB RAM</li>
+                      <li class="plan-feature">i7-6700k 3.6Ghz-4.2Ghz OR i9-9900k</li>
+                      <li class="plan-feature">10GB Raid-1 NVMe SSD</li>
+                        <li class="plan-feature">DDoS Protection</li>
+                    </ul>
+                    <a href="https://billing.kewlhost.co.uk/cart.php?a=add&pid=36" class="plan-buy btn btn-info">Purchase Now</a>
+                </div>
+            </div>
+        </div> 
+        <div class="row" id="Ark-Survival-Evovled">
+            <div class="col-md-4 col-sm-12 col-xs-12">
+                <div class="plan shadow rounded">
+                    <h1 class="plan-title">Ark Survival Evovled - Starter</h1>
+                    <p class="plan-price">£9.00/Month</p>
+                    <i class="fas fa-paper-plane plan-icon text-blue"></i>
+                    <ul class="plan-features">
+                        <li class="plan-feature">6144MB RAM</li>
+                        <li class="plan-feature">i7-6700k 3.6Ghz-4.2Ghz OR i9-9900k</li>
+                        <li class="plan-feature">10GB Raid-1 NVMe SSD</li>
+                        <li class="plan-feature">DDoS Protection</li>
+                    </ul>
+                    <a href="https://billing.kewlhost.co.uk/cart.php?a=add&pid=37" class="plan-buy btn btn-info">Purchase Now</a>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-12 col-xs-12">
+                <div class="plan plan-featured pulse">
+                  <h1 class="plan-title">Ark Survival Evovled - Apprentice</h1>
+                  <p class="plan-price">£12.00/Month</p>
+                  <i class="fas fa-plane plan-icon text-blue"></i>
+                  <ul class="plan-features">
+                    <li class="plan-feature">8192MB RAM</li>
+                    <li class="plan-feature">i7-6700k 3.6Ghz-4.2Ghz OR i9-9900k</li>
+                    <li class="plan-feature">10GB Raid-1 NVMe SSD</li>
+                    <li class="plan-feature">DDoS Protection</li>
+                  </ul>
+                  <a href="https://billing.kewlhost.co.uk/cart.php?a=add&pid=38" class="plan-buy btn btn-info">Purchase Now</a>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-12 col-xs-12">
+                <div class="plan shadow rounded">
+                    <h1 class="plan-title">Ark Survival Evovled - King</h1>
+                    <p class="plan-price">£15.00/Month</p>
+                    <i class="fas fa-paper-plane plan-icon text-blue"></i>
+                    <ul class="plan-features">
+                      <li class="plan-feature">10240MB RAM</li>
+                      <li class="plan-feature">i7-6700k 3.6Ghz-4.2Ghz OR i9-9900k</li>
+                      <li class="plan-feature">10GB Raid-1 NVMe SSD</li>
+                        <li class="plan-feature">DDoS Protection</li>
+                    </ul>
+                    <a href="https://billing.kewlhost.co.uk/cart.php?a=add&pid=39" class="plan-buy btn btn-info">Purchase Now</a>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-12 col-xs-12">
+                <div class="plan shadow rounded">
+                    <h1 class="plan-title">Ark Survival Evovled - Master</h1>
+                    <p class="plan-price">£18.00/Month</p>
+                    <i class="fas fa-paper-plane plan-icon text-blue"></i>
+                    <ul class="plan-features">
+                      <li class="plan-feature">12288MB RAM</li>
+                      <li class="plan-feature">i7-6700k 3.6Ghz-4.2Ghz OR i9-9900k</li>
+                      <li class="plan-feature">10GB Raid-1 NVMe SSD</li>
+                        <li class="plan-feature">DDoS Protection</li>
+                    </ul>
+                    <a href="https://billing.kewlhost.co.uk/cart.php?a=add&pid=40" class="plan-buy btn btn-info">Purchase Now</a>
+                </div>
+            </div>
+        </div>
+        <!-- <div class="row" id="CSGO">
+            <div class="col-md-4 col-sm-12 col-xs-12">
+                <div class="plan shadow rounded">
+                    <h1 class="plan-title">GS:CO - Starter</h1>
+                    <p class="plan-price">£2.00/Month</p>
+                    <i class="fas fa-paper-plane plan-icon text-blue"></i>
+                    <ul class="plan-features">
+                        <li class="plan-feature">1024MB RAM</li>
+                        <li class="plan-feature">i7-6700k 3.6Ghz-4.2Ghz OR i9-9900k</li>
+                        <li class="plan-feature">10GB Raid-1 NVMe SSD</li>
+                        <li class="plan-feature">DDoS Protection</li>
+                    </ul>
+                    <a href="https://billing.kewlhost.co.uk/cart.php?a=add&pid=41" class="plan-buy btn btn-info">Purchase Now</a>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-12 col-xs-12">
+                <div class="plan plan-featured pulse">
+                  <h1 class="plan-title">GS:CO - Apprentice</h1>
+                  <p class="plan-price">£4.00/Month</p>
+                  <i class="fas fa-plane plan-icon text-blue"></i>
+                  <ul class="plan-features">
+                    <li class="plan-feature">2048MB RAM</li>
+                    <li class="plan-feature">i7-6700k 3.6Ghz-4.2Ghz OR i9-9900k</li>
+                    <li class="plan-feature">10GB Raid-1 NVMe SSD</li>
+                    <li class="plan-feature">DDoS Protection</li>
+                  </ul>
+                  <a href="https://billing.kewlhost.co.uk/cart.php?a=add&pid=42" class="plan-buy btn btn-info">Purchase Now</a>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-12 col-xs-12">
+                <div class="plan shadow rounded">
+                    <h1 class="plan-title">GS:CO - King</h1>
+                    <p class="plan-price">£6.00/Month</p>
+                    <i class="fas fa-paper-plane plan-icon text-blue"></i>
+                    <ul class="plan-features">
+                      <li class="plan-feature">4096MB RAM</li>
+                      <li class="plan-feature">i7-6700k 3.6Ghz-4.2Ghz OR i9-9900k</li>
+                      <li class="plan-feature">10GB Raid-1 NVMe SSD</li>
+                        <li class="plan-feature">DDoS Protection</li>
+                    </ul>
+                    <a href="https://billing.kewlhost.co.uk/cart.php?a=add&pid=43" class="plan-buy btn btn-info">Purchase Now</a>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-12 col-xs-12">
+                <div class="plan shadow rounded">
+                    <h1 class="plan-title">GS:CO - Master</h1>
+                    <p class="plan-price">£8.00/Month</p>
+                    <i class="fas fa-paper-plane plan-icon text-blue"></i>
+                    <ul class="plan-features">
+                      <li class="plan-feature">6144MB RAM</li>
+                      <li class="plan-feature">i7-6700k 3.6Ghz-4.2Ghz OR i9-9900k</li>
+                      <li class="plan-feature">10GB Raid-1 NVMe SSD</li>
+                        <li class="plan-feature">DDoS Protection</li>
+                    </ul>
+                    <a href="https://billing.kewlhost.co.uk/cart.php?a=add&pid=44" class="plan-buy btn btn-info">Purchase Now</a>
+                </div>
+            </div>
+        </div> 
+
+        <div class="row" id="GMOD">
+            <div class="col-md-4 col-sm-12 col-xs-12">
+                <div class="plan shadow rounded">
+                    <h1 class="plan-title">GMOD - Starter</h1>
+                    <p class="plan-price">£2.00/Month</p>
+                    <i class="fas fa-paper-plane plan-icon text-blue"></i>
+                    <ul class="plan-features">
+                        <li class="plan-feature">1024MB RAM</li>
+                        <li class="plan-feature">i7-6700k 3.6Ghz-4.2Ghz OR i9-9900k</li>
+                        <li class="plan-feature">10GB Raid-1 NVMe SSD</li>
+                        <li class="plan-feature">DDoS Protection</li>
+                    </ul>
+                    <a href="https://billing.kewlhost.co.uk/cart.php?a=add&pid=45" class="plan-buy btn btn-info">Purchase Now</a>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-12 col-xs-12">
+                <div class="plan plan-featured pulse">
+                  <h1 class="plan-title">GMOD - Apprentice</h1>
+                  <p class="plan-price">£4.00/Month</p>
+                  <i class="fas fa-plane plan-icon text-blue"></i>
+                  <ul class="plan-features">
+                    <li class="plan-feature">2048MB RAM</li>
+                    <li class="plan-feature">i7-6700k 3.6Ghz-4.2Ghz OR i9-9900k</li>
+                    <li class="plan-feature">10GB Raid-1 NVMe SSD</li>
+                    <li class="plan-feature">DDoS Protection</li>
+                  </ul>
+                  <a href="https://billing.kewlhost.co.uk/cart.php?a=add&pid=46" class="plan-buy btn btn-info">Purchase Now</a>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-12 col-xs-12">
+                <div class="plan shadow rounded">
+                    <h1 class="plan-title">GMOD - King</h1>
+                    <p class="plan-price">£6.00/Month</p>
+                    <i class="fas fa-paper-plane plan-icon text-blue"></i>
+                    <ul class="plan-features">
+                      <li class="plan-feature">4096MB RAM</li>
+                      <li class="plan-feature">i7-6700k 3.6Ghz-4.2Ghz OR i9-9900k</li>
+                      <li class="plan-feature">10GB Raid-1 NVMe SSD</li>
+                        <li class="plan-feature">DDoS Protection</li>
+                    </ul>
+                    <a href="https://billing.kewlhost.co.uk/cart.php?a=add&pid=47" class="plan-buy btn btn-info">Purchase Now</a>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-12 col-xs-12">
+                <div class="plan shadow rounded">
+                    <h1 class="plan-title">GMOD - Master</h1>
+                    <p class="plan-price">£8.00/Month</p>
+                    <i class="fas fa-paper-plane plan-icon text-blue"></i>
+                    <ul class="plan-features">
+                      <li class="plan-feature">6144MB RAM</li>
+                      <li class="plan-feature">i7-6700k 3.6Ghz-4.2Ghz OR i9-9900k</li>
+                      <li class="plan-feature">10GB Raid-1 NVMe SSD</li>
+                        <li class="plan-feature">DDoS Protection</li>
+                    </ul>
+                    <a href="https://billing.kewlhost.co.uk/cart.php?a=add&pid=48" class="plan-buy btn btn-info">Purchase Now</a>
+                </div>
+            </div>
+        </div>
+        <div class="row" id="TeamFortress-2">
+            <div class="col-md-4 col-sm-12 col-xs-12">
+                <div class="plan shadow rounded">
+                    <h1 class="plan-title">TeamFortress 2 - Starter</h1>
+                    <p class="plan-price">£2.00/Month</p>
+                    <i class="fas fa-paper-plane plan-icon text-blue"></i>
+                    <ul class="plan-features">
+                        <li class="plan-feature">1024MB RAM</li>
+                        <li class="plan-feature">i7-6700k 3.6Ghz-4.2Ghz OR i9-9900k</li>
+                        <li class="plan-feature">10GB Raid-1 NVMe SSD</li>
+                        <li class="plan-feature">DDoS Protection</li>
+                    </ul>
+                    <a href="https://billing.kewlhost.co.uk/cart.php?a=add&pid=49" class="plan-buy btn btn-info">Purchase Now</a>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-12 col-xs-12">
+                <div class="plan plan-featured pulse">
+                  <h1 class="plan-title">TeamFortress 2 - Apprentice</h1>
+                  <p class="plan-price">£4.00/Month</p>
+                  <i class="fas fa-plane plan-icon text-blue"></i>
+                  <ul class="plan-features">
+                    <li class="plan-feature">2048MB RAM</li>
+                    <li class="plan-feature">i7-6700k 3.6Ghz-4.2Ghz OR i9-9900k</li>
+                    <li class="plan-feature">10GB Raid-1 NVMe SSD</li>
+                    <li class="plan-feature">DDoS Protection</li>
+                  </ul>
+                  <a href="https://billing.kewlhost.co.uk/cart.php?a=add&pid=50" class="plan-buy btn btn-info">Purchase Now</a>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-12 col-xs-12">
+                <div class="plan shadow rounded">
+                    <h1 class="plan-title">TeamFortress 2 - King</h1>
+                    <p class="plan-price">£6.00/Month</p>
+                    <i class="fas fa-paper-plane plan-icon text-blue"></i>
+                    <ul class="plan-features">
+                      <li class="plan-feature">4096MB RAM</li>
+                      <li class="plan-feature">i7-6700k 3.6Ghz-4.2Ghz OR i9-9900k</li>
+                      <li class="plan-feature">10GB Raid-1 NVMe SSD</li>
+                        <li class="plan-feature">DDoS Protection</li>
+                    </ul>
+                    <a href="https://billing.kewlhost.co.uk/cart.php?a=add&pid=51" class="plan-buy btn btn-info">Purchase Now</a>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-12 col-xs-12">
+                <div class="plan shadow rounded">
+                    <h1 class="plan-title">TeamFortress 2 - Master</h1>
+                    <p class="plan-price">£8.00/Month</p>
+                    <i class="fas fa-paper-plane plan-icon text-blue"></i>
+                    <ul class="plan-features">
+                      <li class="plan-feature">6144MB RAM</li>
+                      <li class="plan-feature">i7-6700k 3.6Ghz-4.2Ghz OR i9-9900k</li>
+                      <li class="plan-feature">10GB Raid-1 NVMe SSD</li>
+                        <li class="plan-feature">DDoS Protection</li>
+                    </ul>
+                    <a href="https://billing.kewlhost.co.uk/cart.php?a=add&pid=52" class="plan-buy btn btn-info">Purchase Now</a>
+                </div>
+            </div>
+        </div>
+        <div class="row" id="Insurgency">
+            <div class="col-md-4 col-sm-12 col-xs-12">
+                <div class="plan shadow rounded">
+                    <h1 class="plan-title">Insurgency - Starter</h1>
+                    <p class="plan-price">£4.50/Month</p>
+                    <i class="fas fa-paper-plane plan-icon text-blue"></i>
+                    <ul class="plan-features">
+                        <li class="plan-feature">2048MB RAM</li>
+                        <li class="plan-feature">i7-6700k 3.6Ghz-4.2Ghz OR i9-9900k</li>
+                        <li class="plan-feature">10GB Raid-1 NVMe SSD</li>
+                        <li class="plan-feature">DDoS Protection</li>
+                    </ul>
+                    <a href="https://billing.kewlhost.co.uk/cart.php?a=add&pid=53" class="plan-buy btn btn-info">Purchase Now</a>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-12 col-xs-12">
+                <div class="plan plan-featured pulse">
+                  <h1 class="plan-title">Insurgency - Apprentice</h1>
+                  <p class="plan-price">£6.75/Month</p>
+                  <i class="fas fa-plane plan-icon text-blue"></i>
+                  <ul class="plan-features">
+                    <li class="plan-feature">3072MB RAM</li>
+                    <li class="plan-feature">i7-6700k 3.6Ghz-4.2Ghz OR i9-9900k</li>
+                    <li class="plan-feature">10GB Raid-1 NVMe SSD</li>
+                    <li class="plan-feature">DDoS Protection</li>
+                  </ul>
+                  <a href="https://billing.kewlhost.co.uk/cart.php?a=add&pid=54" class="plan-buy btn btn-info">Purchase Now</a>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-12 col-xs-12">
+                <div class="plan shadow rounded">
+                    <h1 class="plan-title">Insurgency - King</h1>
+                    <p class="plan-price">£9.00/Month</p>
+                    <i class="fas fa-paper-plane plan-icon text-blue"></i>
+                    <ul class="plan-features">
+                      <li class="plan-feature">4096MB RAM</li>
+                      <li class="plan-feature">i7-6700k 3.6Ghz-4.2Ghz OR i9-9900k</li>
+                      <li class="plan-feature">10GB Raid-1 NVMe SSD</li>
+                        <li class="plan-feature">DDoS Protection</li>
+                    </ul>
+                    <a href="https://billing.kewlhost.co.uk/cart.php?a=add&pid=55" class="plan-buy btn btn-info">Purchase Now</a>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-12 col-xs-12">
+                <div class="plan shadow rounded">
+                    <h1 class="plan-title">Insurgency - Master</h1>
+                    <p class="plan-price">£11.25/Month</p>
+                    <i class="fas fa-paper-plane plan-icon text-blue"></i>
+                    <ul class="plan-features">
+                      <li class="plan-feature">5120MB RAM</li>
+                      <li class="plan-feature">i7-6700k 3.6Ghz-4.2Ghz OR i9-9900k</li>
+                      <li class="plan-feature">10GB Raid-1 NVMe SSD</li>
+                        <li class="plan-feature">DDoS Protection</li>
+                    </ul>
+                    <a href="https://billing.kewlhost.co.uk/cart.php?a=add&pid=56" class="plan-buy btn btn-info">Purchase Now</a>
+                </div>
+            </div>
+        </div>
+        <div class="row" id="Rust">
+            <div class="col-md-4 col-sm-12 col-xs-12">
+                <div class="plan shadow rounded">
+                    <h1 class="plan-title">Rust - Starter</h1>
+                    <p class="plan-price">£6.00/Month</p>
+                    <i class="fas fa-paper-plane plan-icon text-blue"></i>
+                    <ul class="plan-features">
+                        <li class="plan-feature">4096MB RAM</li>
+                        <li class="plan-feature">i7-6700k 3.6Ghz-4.2Ghz OR i9-9900k</li>
+                        <li class="plan-feature">10GB Raid-1 NVMe SSD</li>
+                        <li class="plan-feature">DDoS Protection</li>
+                    </ul>
+                    <a href="https://billing.kewlhost.co.uk/cart.php?a=add&pid=57" class="plan-buy btn btn-info">Purchase Now</a>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-12 col-xs-12">
+                <div class="plan plan-featured pulse">
+                  <h1 class="plan-title">Rust - Apprentice</h1>
+                  <p class="plan-price">£7.50/Month</p>
+                  <i class="fas fa-plane plan-icon text-blue"></i>
+                  <ul class="plan-features">
+                    <li class="plan-feature">5120MB RAM</li>
+                    <li class="plan-feature">i7-6700k 3.6Ghz-4.2Ghz OR i9-9900k</li>
+                    <li class="plan-feature">10GB Raid-1 NVMe SSD</li>
+                    <li class="plan-feature">DDoS Protection</li>
+                  </ul>
+                  <a href="https://billing.kewlhost.co.uk/cart.php?a=add&pid=69" class="plan-buy btn btn-info">Purchase Now</a>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-12 col-xs-12">
+                <div class="plan shadow rounded">
+                    <h1 class="plan-title">Rust - King</h1>
+                    <p class="plan-price">£9.00/Month</p>
+                    <i class="fas fa-paper-plane plan-icon text-blue"></i>
+                    <ul class="plan-features">
+                      <li class="plan-feature">6144MB RAM</li>
+                      <li class="plan-feature">i7-6700k 3.6Ghz-4.2Ghz OR i9-9900k</li>
+                      <li class="plan-feature">10GB Raid-1 NVMe SSD</li>
+                        <li class="plan-feature">DDoS Protection</li>
+                    </ul>
+                    <a href="https://billing.kewlhost.co.uk/cart.php?a=add&pid=70" class="plan-buy btn btn-info">Purchase Now</a>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-12 col-xs-12">
+                <div class="plan shadow rounded">
+                    <h1 class="plan-title">Rust - Master</h1>
+                    <p class="plan-price">£12.00/Month</p>
+                    <i class="fas fa-paper-plane plan-icon text-blue"></i>
+                    <ul class="plan-features">
+                      <li class="plan-feature">8192MB RAM</li>
+                      <li class="plan-feature">i7-6700k 3.6Ghz-4.2Ghz OR i9-9900k</li>
+                      <li class="plan-feature">10GB Raid-1 NVMe SSD</li>
+                        <li class="plan-feature">DDoS Protection</li>
+                    </ul>
+                    <a href="https://billing.kewlhost.co.uk/cart.php?a=add&pid=71" class="plan-buy btn btn-info">Purchase Now</a>
+                </div>
+            </div>
+        </div>
+        <div class="row" id="Arma3">
+            <div class="col-md-4 col-sm-12 col-xs-12">
+                <div class="plan shadow rounded">
+                    <h1 class="plan-title">Arma3 - Starter</h1>
+                    <p class="plan-price">£3.00/Month</p>
+                    <i class="fas fa-paper-plane plan-icon text-blue"></i>
+                    <ul class="plan-features">
+                        <li class="plan-feature">2048MB RAM</li>
+                        <li class="plan-feature">i7-6700k 3.6Ghz-4.2Ghz OR i9-9900k</li>
+                        <li class="plan-feature">10GB Raid-1 NVMe SSD</li>
+                        <li class="plan-feature">DDoS Protection</li>
+                    </ul>
+                    <a href="https://billing.kewlhost.co.uk/cart.php?a=add&pid=72" class="plan-buy btn btn-info">Purchase Now</a>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-12 col-xs-12">
+                <div class="plan plan-featured pulse">
+                  <h1 class="plan-title">Arma3 - Apprentice</h1>
+                  <p class="plan-price">£4.00/Month</p>
+                  <i class="fas fa-plane plan-icon text-blue"></i>
+                  <ul class="plan-features">
+                    <li class="plan-feature">3072MB RAM</li>
+                    <li class="plan-feature">i7-6700k 3.6Ghz-4.2Ghz OR i9-9900k</li>
+                    <li class="plan-feature">10GB Raid-1 NVMe SSD</li>
+                    <li class="plan-feature">DDoS Protection</li>
+                  </ul>
+                  <a href="https://billing.kewlhost.co.uk/cart.php?a=add&pid=76" class="plan-buy btn btn-info">Purchase Now</a>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-12 col-xs-12">
+                <div class="plan shadow rounded">
+                    <h1 class="plan-title">Arma3 - King</h1>
+                    <p class="plan-price">£6.00/Month</p>
+                    <i class="fas fa-paper-plane plan-icon text-blue"></i>
+                    <ul class="plan-features">
+                      <li class="plan-feature">4096MB RAM</li>
+                      <li class="plan-feature">i7-6700k 3.6Ghz-4.2Ghz OR i9-9900k</li>
+                      <li class="plan-feature">10GB Raid-1 NVMe SSD</li>
+                        <li class="plan-feature">DDoS Protection</li>
+                    </ul>
+                    <a href="https://billing.kewlhost.co.uk/cart.php?a=add&pid=77" class="plan-buy btn btn-info">Purchase Now</a>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-12 col-xs-12">
+                <div class="plan shadow rounded">
+                    <h1 class="plan-title">Arma3 - Master</h1>
+                    <p class="plan-price">£8.00/Month</p>
+                    <i class="fas fa-paper-plane plan-icon text-blue"></i>
+                    <ul class="plan-features">
+                      <li class="plan-feature">5120MB RAM</li>
+                      <li class="plan-feature">i7-6700k 3.6Ghz-4.2Ghz OR i9-9900k</li>
+                      <li class="plan-feature">10GB Raid-1 NVMe SSD</li>
+                        <li class="plan-feature">DDoS Protection</li>
+                    </ul>
+                    <a href="https://billing.kewlhost.co.uk/cart.php?a=add&pid=78" class="plan-buy btn btn-info">Purchase Now</a>
+                </div>
+            </div>
+        </div>
+        <div class="row" id="Conan-Exiles">
+            <div class="col-md-4 col-sm-12 col-xs-12">
+                <div class="plan shadow rounded">
+                    <h1 class="plan-title">Conan Exiles - Starter</h1>
+                    <p class="plan-price">£6.80/Month</p>
+                    <i class="fas fa-paper-plane plan-icon text-blue"></i>
+                    <ul class="plan-features">
+                        <li class="plan-feature">4096MB RAM</li>
+                        <li class="plan-feature">i7-6700k 3.6Ghz-4.2Ghz OR i9-9900k</li>
+                        <li class="plan-feature">10GB Raid-1 NVMe SSD</li>
+                        <li class="plan-feature">DDoS Protection</li>
+                    </ul>
+                    <a href="https://billing.kewlhost.co.uk/cart.php?a=add&pid=73" class="plan-buy btn btn-info">Purchase Now</a>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-12 col-xs-12">
+                <div class="plan plan-featured pulse">
+                  <h1 class="plan-title">Conan Exiles - Apprentice</h1>
+                  <p class="plan-price">£8.50/Month</p>
+                  <i class="fas fa-plane plan-icon text-blue"></i>
+                  <ul class="plan-features">
+                    <li class="plan-feature">5120MB RAM</li>
+                    <li class="plan-feature">i7-6700k 3.6Ghz-4.2Ghz OR i9-9900k</li>
+                    <li class="plan-feature">10GB Raid-1 NVMe SSD</li>
+                    <li class="plan-feature">DDoS Protection</li>
+                  </ul>
+                  <a href="https://billing.kewlhost.co.uk/cart.php?a=add&pid=79" class="plan-buy btn btn-info">Purchase Now</a>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-12 col-xs-12">
+                <div class="plan shadow rounded">
+                    <h1 class="plan-title">Conan Exiles - King</h1>
+                    <p class="plan-price">£10.20/Month</p>
+                    <i class="fas fa-paper-plane plan-icon text-blue"></i>
+                    <ul class="plan-features">
+                      <li class="plan-feature">6144MB RAM</li>
+                      <li class="plan-feature">i7-6700k 3.6Ghz-4.2Ghz OR i9-9900k</li>
+                      <li class="plan-feature">10GB Raid-1 NVMe SSD</li>
+                        <li class="plan-feature">DDoS Protection</li>
+                    </ul>
+                    <a href="https://billing.kewlhost.co.uk/cart.php?a=add&pid=80" class="plan-buy btn btn-info">Purchase Now</a>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-12 col-xs-12">
+                <div class="plan shadow rounded">
+                    <h1 class="plan-title">Conan Exiles - Master</h1>
+                    <p class="plan-price">£11.90/Month</p>
+                    <i class="fas fa-paper-plane plan-icon text-blue"></i>
+                    <ul class="plan-features">
+                      <li class="plan-feature">7168MB RAM</li>
+                      <li class="plan-feature">i7-6700k 3.6Ghz-4.2Ghz OR i9-9900k</li>
+                      <li class="plan-feature">10GB Raid-1 NVMe SSD</li>
+                        <li class="plan-feature">DDoS Protection</li>
+                    </ul>
+                    <a href="https://billing.kewlhost.co.uk/cart.php?a=add&pid=81" class="plan-buy btn btn-info">Purchase Now</a>
+                </div>
+            </div>
+        </div>
+        <div class="row" id="Dont-Starve">
+            <div class="col-md-4 col-sm-12 col-xs-12">
+                <div class="plan shadow rounded">
+                    <h1 class="plan-title">FiveM - Starter</h1>
+                    <p class="plan-price">£2.00/Month</p>
+                    <i class="fas fa-paper-plane plan-icon text-blue"></i>
+                    <ul class="plan-features">
+                        <li class="plan-feature">1024MB RAM</li>
+                        <li class="plan-feature">i7-6700k 3.6Ghz-4.2Ghz OR i9-9900k</li>
+                        <li class="plan-feature">10GB Raid-1 NVMe SSD</li>
+                        <li class="plan-feature">DDoS Protection</li>
+                    </ul>
+                    <a href="https://billing.kewlhost.co.uk/cart.php?a=add&pid=74" class="plan-buy btn btn-info">Purchase Now</a>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-12 col-xs-12">
+                <div class="plan plan-featured pulse">
+                  <h1 class="plan-title">Don't Starve - Apprentice</h1>
+                  <p class="plan-price">£4.00/Month</p>
+                  <i class="fas fa-plane plan-icon text-blue"></i>
+                  <ul class="plan-features">
+                    <li class="plan-feature">2048MB RAM</li>
+                    <li class="plan-feature">i7-6700k 3.6Ghz-4.2Ghz OR i9-9900k</li>
+                    <li class="plan-feature">10GB Raid-1 NVMe SSD</li>
+                    <li class="plan-feature">DDoS Protection</li>
+                  </ul>
+                  <a href="https://billing.kewlhost.co.uk/cart.php?a=add&pid=82" class="plan-buy btn btn-info">Purchase Now</a>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-12 col-xs-12">
+                <div class="plan shadow rounded">
+                    <h1 class="plan-title">Don't Starve - King</h1>
+                    <p class="plan-price">£6.00/Month</p>
+                    <i class="fas fa-paper-plane plan-icon text-blue"></i>
+                    <ul class="plan-features">
+                      <li class="plan-feature">3072MB RAM</li>
+                      <li class="plan-feature">i7-6700k 3.6Ghz-4.2Ghz OR i9-9900k</li>
+                      <li class="plan-feature">10GB Raid-1 NVMe SSD</li>
+                        <li class="plan-feature">DDoS Protection</li>
+                    </ul>
+                    <a href="https://billing.kewlhost.co.uk/cart.php?a=add&pid=83" class="plan-buy btn btn-info">Purchase Now</a>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-12 col-xs-12">
+                <div class="plan shadow rounded">
+                    <h1 class="plan-title">Don't Starve - Master</h1>
+                    <p class="plan-price">£8.00/Month</p>
+                    <i class="fas fa-paper-plane plan-icon text-blue"></i>
+                    <ul class="plan-features">
+                      <li class="plan-feature">4096MB RAM</li>
+                      <li class="plan-feature">i7-6700k 3.6Ghz-4.2Ghz OR i9-9900k</li>
+                      <li class="plan-feature">10GB Raid-1 NVMe SSD</li>
+                        <li class="plan-feature">DDoS Protection</li>
+                    </ul>
+                    <a href="https://billing.kewlhost.co.uk/cart.php?a=add&pid=84" class="plan-buy btn btn-info">Purchase Now</a>
+                </div>
+            </div>
+        </div>
+        <div class="row" id="Factorio">
+            <div class="col-md-4 col-sm-12 col-xs-12">
+                <div class="plan shadow rounded">
+                    <h1 class="plan-title">Factorio - Starter</h1>
+                    <p class="plan-price">£3.00/Month</p>
+                    <i class="fas fa-paper-plane plan-icon text-blue"></i>
+                    <ul class="plan-features">
+                        <li class="plan-feature">2048MB RAM</li>
+                        <li class="plan-feature">i7-6700k 3.6Ghz-4.2Ghz OR i9-9900k</li>
+                        <li class="plan-feature">10GB Raid-1 NVMe SSD</li>
+                        <li class="plan-feature">DDoS Protection</li>
+                    </ul>
+                    <a href="https://billing.kewlhost.co.uk/cart.php?a=add&pid=75" class="plan-buy btn btn-info">Purchase Now</a>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-12 col-xs-12">
+                <div class="plan plan-featured pulse">
+                  <h1 class="plan-title">Factorio - Apprentice</h1>
+                  <p class="plan-price">£4.50/Month</p>
+                  <i class="fas fa-plane plan-icon text-blue"></i>
+                  <ul class="plan-features">
+                    <li class="plan-feature">3072MB RAM</li>
+                    <li class="plan-feature">i7-6700k 3.6Ghz-4.2Ghz OR i9-9900k</li>
+                    <li class="plan-feature">10GB Raid-1 NVMe SSD</li>
+                    <li class="plan-feature">DDoS Protection</li>
+                  </ul>
+                  <a href="https://billing.kewlhost.co.uk/cart.php?a=add&pid=85" class="plan-buy btn btn-info">Purchase Now</a>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-12 col-xs-12">
+                <div class="plan shadow rounded">
+                    <h1 class="plan-title">Factorio - King</h1>
+                    <p class="plan-price">£6/Month</p>
+                    <i class="fas fa-paper-plane plan-icon text-blue"></i>
+                    <ul class="plan-features">
+                      <li class="plan-feature">4096MB RAM</li>
+                      <li class="plan-feature">i7-6700k 3.6Ghz-4.2Ghz OR i9-9900k</li>
+                      <li class="plan-feature">10GB Raid-1 NVMe SSD</li>
+                        <li class="plan-feature">DDoS Protection</li>
+                    </ul>
+                    <a href="https://billing.kewlhost.co.uk/cart.php?a=add&pid=86" class="plan-buy btn btn-info">Purchase Now</a>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-12 col-xs-12">
+                <div class="plan shadow rounded">
+                    <h1 class="plan-title">Factorio - Master</h1>
+                    <p class="plan-price">£7.50/Month</p>
+                    <i class="fas fa-paper-plane plan-icon text-blue"></i>
+                    <ul class="plan-features">
+                      <li class="plan-feature">5120MB RAM</li>
+                      <li class="plan-feature">i7-6700k 3.6Ghz-4.2Ghz OR i9-9900k</li>
+                      <li class="plan-feature">10GB Raid-1 NVMe SSD</li>
+                        <li class="plan-feature">DDoS Protection</li>
+                    </ul>
+                    <a href="https://billing.kewlhost.co.uk/cart.php?a=add&pid=88" class="plan-buy btn btn-info">Purchase Now</a>
+                </div>
+            </div>
+        </div> 
+    </div>--->
+</div>
+
+<footer class="footer footer-default ">
+    <div class="container">
+        <nav>
+            <ul>
+                    <li>
+                            <a href="#">
+                                KewlHost
+                            </a>
+                        </li>
+                        <li>
+                            <a href="about.html">
+                                About
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://status.kewlhost.co.uk">
+                                Status
+                            </a>
+                        </li>
+                        <li>
+                            <a href="privacy.html">
+                                Privacy
+                            </a>
+                        </li>
+                        <li>
+                            <a href="tos.html">
+                                ToS
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://panel.kewlhost.co.uk">
+                                Panel
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://discord.kewlhost.co.uk">
+                                Discord
+                            </a>
+                        </li>
+            </ul>
+        </nav>
+        <div class="copyright">
+            &copy;
+            <script>
+                document.write(new Date().getFullYear())
+            </script>, Designed and Developed by <a href="https://petabyte.pw" target="_blank">Petabyte</a>
+        </div>
+    </div>
+</footer>
+
+
+
+</body>
+
+
+<!--   Core JS Files   -->
+<script src="assets/js/core/jquery.3.2.1.min.js" type="text/javascript"></script>
+<script src="assets/js/core/popper.min.js" type="text/javascript"></script>
+<script src="assets/js/core/bootstrap.min.js" type="text/javascript"></script>
+<script src="assets/js/plugins/moment.min.js"></script>
+<!--  Plugin for Switches, full documentation here: http://www.jque.re/plugins/version3/bootstrap.switch/ -->
+<script src="assets/js/plugins/bootstrap-switch.js"></script>
+<!--	Plugin for Tags, full documentation here: https://github.com/bootstrap-tagsinput/bootstrap-tagsinputs  -->
+<script src="assets/js/plugins/bootstrap-tagsinput.js"></script>
+<!--	Plugin for Select, full documentation here: http://silviomoreto.github.io/bootstrap-select -->
+<script src="assets/js/plugins/bootstrap-selectpicker.js" type="text/javascript"></script>
+<!--	Plugin for Fileupload, full documentation here: http://www.jasny.net/bootstrap/javascript/#fileinput -->
+<script src="assets/js/plugins/jasny-bootstrap.min.js"></script>
+<!--  Plugin for the Sliders, full documentation here: http://refreshless.com/nouislider/ -->
+<script src="assets/js/plugins/nouislider.min.js" type="text/javascript"></script>
+<!--  Plugin for the DatePicker, full documentation here: https://github.com/uxsolutions/bootstrap-datepicker -->
+<script src="assets/js/plugins/bootstrap-datetimepicker.min.js" type="text/javascript"></script>
+<!-- Control Center for Now Ui Kit: parallax effects, scripts for the example pages etc -->
+<script src="assets/js/now-ui-kit.js?v=1.1.0" type="text/javascript"></script>
+<!-- Custom JS -->
+<script src="assets/js/scripts.js"></script>
+</html>
